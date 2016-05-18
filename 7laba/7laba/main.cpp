@@ -6,9 +6,12 @@ using namespace std;
 int main()
 {
 	int n;
-	cin >> n;
-	Multi obj(n);
-	obj.Input();
+	for (int i = 0; i < 3; i++)
+	{
+		cin >> n;
+		Multi obj(n);
+		obj.Input();
+	}
 	obj.Print();
 	system("pause");
 	return 0;

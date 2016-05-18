@@ -14,7 +14,6 @@ public:
 	Multi(int);
 	Multi(double);
 	int Value();
-	friend ostream& operator<<(ostream&,int);
 	void Print();
 	void Input();
 	~Multi();
